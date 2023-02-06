@@ -6,7 +6,6 @@ import Sidebar from "../components/sidebar/Sidebar";
 const MainPage = () => {
   return (
     <div>
-      <Menu />
       <div>
         <Stories />
         <Feed />
