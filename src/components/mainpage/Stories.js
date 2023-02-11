@@ -2,10 +2,12 @@ import Story from "./Story";
 const Stories = ({ storyList }) => {
   console.log("wtf", storyList);
   return (
-    <div className="flex">
+    <div className="flex gap-[1.7vw]">
       {storyList &&
         storyList.map((story) => {
-          return <Story profileImg={story.picture} />;
+          return (
+            <Story profileImg={story.picture} firstName={story.firstName} />
+          );
         })}
     </div>
   );

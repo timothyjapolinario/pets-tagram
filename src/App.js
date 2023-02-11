@@ -5,10 +5,10 @@ import MainPage from "./pages/MainPage";
 function App() {
   return (
     <div className="flex">
-      <div>
+      <div className="border-r-2 h-[100vh]">
         <Menu />
       </div>
-      <div className="bg-blue-500">
+      <div className="  mx-[9vw] mt-[9vh]">
         <MainPage />
       </div>
     </div>

@@ -3,10 +3,10 @@
 exports[`Main Page Component renders correct menu 1`] = `
 <div>
   <div
-    class="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pt-10 pr-[7vw]"
+    class="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pr-[7vw]"
   >
     <h1
-      class="text-3xl font-light"
+      class="text-3xl font-light my-[4vh]"
     >
       PetsTagram
     </h1>

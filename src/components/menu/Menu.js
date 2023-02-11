@@ -7,8 +7,8 @@ import profileImg from "../../assets/profile.jpg";
 import menuIcon from "../../assets/menu-icon.png";
 const Menu = () => {
   return (
-    <div className="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pt-10 pr-[7vw]">
-      <h1 className="text-3xl font-light">PetsTagram</h1>
+    <div className="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pr-[7vw]">
+      <h1 className="text-3xl font-light my-[4vh]">PetsTagram</h1>
       <div className="flex gap-4 items-center">
         <img src={homeIcon} className="h-[5vh]" />
         <span>Home</span>
