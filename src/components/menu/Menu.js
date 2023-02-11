@@ -7,34 +7,34 @@ import profileImg from "../../assets/profile.jpg";
 import menuIcon from "../../assets/menu-icon.png";
 const Menu = () => {
   return (
-    <div className="flex min-h-[80vh] flex-col gap-[7vh] pl-[1.3vw] pt-10 pr-[7vw]">
+    <div className="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pt-10 pr-[7vw]">
       <h1 className="text-3xl font-light">PetsTagram</h1>
       <div className="flex gap-4 items-center">
-        <img src={homeIcon} className="h-7" />
+        <img src={homeIcon} className="h-[5vh]" />
         <span>Home</span>
       </div>
       <div className="flex gap-4 items-center">
-        <img src={searchIcon} className="h-7" />
+        <img src={searchIcon} className="h-[5vh]" />
         <span>Search</span>
       </div>
       <div className="flex gap-4 items-center">
-        <img src={messengerIcon} className="h-7" />
+        <img src={messengerIcon} className="h-[5vh]" />
         <span>Messages</span>
       </div>
       <div className="flex gap-4 items-center">
-        <img src={heartIcon} className="h-7" />
+        <img src={heartIcon} className="h-[5vh]" />
         <span>Notifications</span>
       </div>
       <div className="flex gap-4 items-center">
-        <img src={plusIcon} className="h-7" />
+        <img src={plusIcon} className="h-[5vh]" />
         <span>Create</span>
       </div>
       <div className="flex gap-4 items-center">
-        <img src={profileImg} className="h-8 rounded-full" />
+        <img src={profileImg} className="h-[5vh] rounded-full" />
         <span>Profile</span>
       </div>
       <div className="flex gap-4 items-center my-5">
-        <img src={menuIcon} className="h-7" />
+        <img src={menuIcon} className="h-[5vh]" />
         <span>Menu</span>
       </div>
     </div>

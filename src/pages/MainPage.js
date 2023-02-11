@@ -1,10 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Feed from "../components/mainpage/Feed";
 import Stories from "../components/mainpage/Stories";
 import Menu from "../components/menu/Menu";
 import Sidebar from "../components/sidebar/Sidebar";
 
 const MainPage = () => {
+  const [stories, setStories] = useState([]);
   useEffect(() => {
     fetch("https://dummyapi.io/data/v1/user?limit=10", {
       headers: {
@@ -17,14 +18,14 @@ const MainPage = () => {
         }
         throw response;
       })
-      .then((data) => {
-        console.log(data);
+      .then((response) => {
+        setStories(response.data);
       });
   }, []);
   return (
     <div>
       <div>
-        <Stories storyList={[]} />
+        <Stories storyList={stories.slice(0, 6)} />
         <Feed />
       </div>
       <div>

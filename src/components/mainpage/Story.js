@@ -1,7 +1,7 @@
-const Story = (profileImg) => {
+const Story = ({ profileImg }) => {
   return (
     <div className="rounded-full">
-      <img src={profileImg} />
+      <img src={profileImg} className="rounded-full h-12" />
     </div>
   );
 };

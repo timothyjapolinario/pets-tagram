@@ -3,7 +3,7 @@
 exports[`Main Page Component renders correct menu 1`] = `
 <div>
   <div
-    class="flex min-h-[80vh] flex-col gap-[7vh] pl-[1.3vw] pt-10 pr-[7vw]"
+    class="flex min-h-[80vh] flex-col gap-[6vh] pl-[1.3vw] pt-10 pr-[7vw]"
   >
     <h1
       class="text-3xl font-light"
@@ -14,7 +14,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="home-icon.svg"
       />
       <span>
@@ -25,7 +25,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="search-icon.png"
       />
       <span>
@@ -36,7 +36,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="messenger-icon.svg"
       />
       <span>
@@ -47,7 +47,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="heart-icon.png"
       />
       <span>
@@ -58,7 +58,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="plus-icon.png"
       />
       <span>
@@ -69,7 +69,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center"
     >
       <img
-        class="h-8 rounded-full"
+        class="h-[5vh] rounded-full"
         src="profile.jpg"
       />
       <span>
@@ -80,7 +80,7 @@ exports[`Main Page Component renders correct menu 1`] = `
       class="flex gap-4 items-center my-5"
     >
       <img
-        class="h-7"
+        class="h-[5vh]"
         src="menu-icon.png"
       />
       <span>
