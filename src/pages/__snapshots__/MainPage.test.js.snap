@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Page Component renders correct menu 1`] = `
+<div>
+  <div
+    class="flex min-h-[80vh] flex-col gap-[7vh] pl-[1.3vw] pt-10 pr-[7vw]"
+  >
+    <h1
+      class="text-3xl font-light"
+    >
+      PetsTagram
+    </h1>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-7"
+        src="home-icon.svg"
+      />
+      <span>
+        Home
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-7"
+        src="search-icon.png"
+      />
+      <span>
+        Search
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-7"
+        src="messenger-icon.svg"
+      />
+      <span>
+        Messages
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-7"
+        src="heart-icon.png"
+      />
+      <span>
+        Notifications
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-7"
+        src="plus-icon.png"
+      />
+      <span>
+        Create
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center"
+    >
+      <img
+        class="h-8 rounded-full"
+        src="profile.jpg"
+      />
+      <span>
+        Profile
+      </span>
+    </div>
+    <div
+      class="flex gap-4 items-center my-5"
+    >
+      <img
+        class="h-7"
+        src="menu-icon.png"
+      />
+      <span>
+        Menu
+      </span>
+    </div>
+  </div>
+</div>
+`;
