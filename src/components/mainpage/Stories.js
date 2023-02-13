@@ -1,6 +1,5 @@
 import Story from "./Story";
 const Stories = ({ storyList }) => {
-  console.log("wtf", storyList);
   return (
     <div className="flex gap-[1.7vw]">
       {storyList &&
