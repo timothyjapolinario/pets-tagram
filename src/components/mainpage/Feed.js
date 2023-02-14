@@ -4,7 +4,7 @@ import Post from "./Post/Post";
 const Feed = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch("https://dummyapi.io/data/v1/post?limit=1", {
+    fetch("https://dummyapi.io/data/v1/post?limit=5", {
       headers: {
         "app-id": "63e1a5056fe57421fc54e735",
       },
@@ -23,7 +23,7 @@ const Feed = () => {
       });
   }, []);
   return (
-    <div>
+    <div className="flex flex-col gap-14">
       {posts.map((post) => {
         return (
           <Post
