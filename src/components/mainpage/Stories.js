@@ -1,7 +1,7 @@
 import Story from "./Story";
 const Stories = ({ storyList }) => {
   return (
-    <div className="flex gap-[1.7vw] mb-[6vh]">
+    <div className="flex gap-[1.7vw] mb-[8vh] items-stretch overflow-hidden">
       {storyList &&
         storyList.map((story) => {
           return (

@@ -35,7 +35,7 @@ const Post = ({
   return (
     <div>
       <div className="flex items-center gap-[.5vw] mb-[3vh]">
-        <div className="bg-gradient-to-r from-[#7928ca] to-[#ff0080] rounded-full">
+        <div className="bg-gradient-to-r from-[#7928ca] to-[#ff0080] rounded-full w-fit">
           <img
             src={uploaderImage}
             className="rounded-full h-[5vh] border-white border-2 m-[0.3vh]"

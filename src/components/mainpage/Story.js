@@ -4,7 +4,7 @@ const Story = ({ profileImg, firstName }) => {
       <div className="bg-gradient-to-r from-[#7928ca] to-[#ff0080] rounded-full">
         <img
           src={profileImg}
-          className="rounded-full h-[8vh] border-white border-2 m-[0.5vh]"
+          className="rounded-full max-w-full h-14 border-white border-2 m-[0.5vh]"
         />
       </div>
 
