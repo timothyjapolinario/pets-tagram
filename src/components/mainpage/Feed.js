@@ -29,7 +29,7 @@ const Feed = () => {
           <Post
             postId={post.id}
             uploader={post.owner.firstName}
-            uploaderImage={post.owner.image}
+            uploaderImage={post.owner.picture}
             uploadDate={post.publishDate}
             postImages={[post.image, post.image]}
             postText={post.text}
