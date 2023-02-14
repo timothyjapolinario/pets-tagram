@@ -5,7 +5,11 @@ const Stories = ({ storyList }) => {
       {storyList &&
         storyList.map((story) => {
           return (
-            <Story profileImg={story.picture} firstName={story.firstName} />
+            <Story
+              profileImg={story.picture}
+              firstName={story.firstName}
+              key={story.id}
+            />
           );
         })}
     </div>

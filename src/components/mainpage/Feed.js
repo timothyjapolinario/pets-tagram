@@ -27,6 +27,7 @@ const Feed = () => {
       {posts.map((post) => {
         return (
           <Post
+            postId={post.id}
             uploader={post.owner.firstName}
             uploaderImage={post.owner.image}
             uploadDate={post.publishDate}
@@ -35,6 +36,7 @@ const Feed = () => {
             comments={["Comment1", "Comment2"]}
             isLiked={post.isLiked}
             numLikes={post.likes}
+            key={post.id}
           />
         );
       })}

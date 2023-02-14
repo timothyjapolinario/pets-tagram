@@ -1,4 +1,5 @@
 const Post = ({
+  postId,
   uploader,
   uploaderImage,
   uploadDate,
@@ -17,8 +18,8 @@ const Post = ({
       <div>{uploadDate}</div>
 
       <div>
-        {postImages.map((image) => {
-          return <img src={image} />;
+        {postImages.map((image, index) => {
+          return <img src={image} key={postId + index + "img"} />;
         })}
       </div>
 
