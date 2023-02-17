@@ -4,7 +4,7 @@ import MainPage from "./pages/MainPage";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex lg:flex-row flex-col-reverse">
       <div className="border-r-2 h-[100vh]">
         <Menu />
       </div>

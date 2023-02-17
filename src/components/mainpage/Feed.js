@@ -19,6 +19,7 @@ const Feed = () => {
         const modifiedResponse = response.data.map((post) => {
           return { ...post, isLiked: false };
         });
+        console.log(modifiedResponse);
         setPosts(modifiedResponse);
       });
   }, []);
@@ -31,7 +32,10 @@ const Feed = () => {
             uploader={post.owner.firstName}
             uploaderImage={post.owner.picture}
             uploadDate={post.publishDate}
-            postImages={[post.image, post.image]}
+            postImages={[
+              post.image,
+              "https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074__340.jpg",
+            ]}
             postText={post.text}
             comments={["Comment1", "Comment2"]}
             isLiked={post.isLiked}

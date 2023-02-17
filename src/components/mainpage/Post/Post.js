@@ -19,6 +19,24 @@ const getDaysDuration = (postedDate) => {
 
   return `${Math.round(daysDiff / 365)}y`;
 };
+
+const loadComments = async (postId) => {
+  fetch(`https://dummyapi.io/data/v1/post/${postId}`, {
+    headers: {
+      "app-id": "63e1a5056fe57421fc54e735",
+    },
+  })
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      }
+      throw response;
+    })
+    .then((responseObj) => {
+      console.log(responseObj.data);
+    });
+};
+
 const Post = ({
   postId,
   uploader,
