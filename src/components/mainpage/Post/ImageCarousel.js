@@ -19,10 +19,10 @@ const ImageCarousel = ({ imageList }) => {
     }
   };
   return (
-    <div className="relative rounded-[50px] overflow-hidden h-[70vh] w-[30vw]">
+    <div className="relative rounded-[50px] overflow-hidden h-[80vh] w-full">
       <img
         src={imageList[activeImageIndex]}
-        className="absolute w-full h-full"
+        className="w-full h-full object-cover"
       />
       <button
         className="absolute left-0 top-[45%] text-black text-[2rem] m-1"
