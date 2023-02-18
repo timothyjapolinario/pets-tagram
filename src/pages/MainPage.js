@@ -24,7 +24,7 @@ const MainPage = () => {
   }, []);
   return (
     <div>
-      <div className="w-[100vw] lg:w-[40vw]">
+      <div className="w-full lg:w-[40vw]">
         <Stories storyList={stories.slice(0, 6)} />
         <Feed />
       </div>

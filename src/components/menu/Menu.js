@@ -7,7 +7,7 @@ import profileImg from "../../assets/profile.jpg";
 import menuIcon from "../../assets/menu-icon.png";
 const Menu = () => {
   return (
-    <div className="flex w-full md:w-[10vw] fixed bottom-0 md:static z-[9999] bg-white flex-row md:flex-col items-center md:items-start md:min-h-[80vh] gap-[6vh] md:pl-[1.3vw] md:pr-[5vw] lg:w-[20vw]">
+    <div className="flex w-full md:h-[100vh] md:w-[10vw] justify-between fixed bottom-0 z-[9999] bg-white flex-row md:flex-col items-center md:items-start md:min-h-[80vh] gap-[6vh] md:pl-[1.3vw] md:pr-[5vw] lg:w-[20vw]">
       <h1 className="text-3xl font-light my-[4vh] md:block hidden">
         PetsTagram
       </h1>
