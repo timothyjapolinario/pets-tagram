@@ -12,7 +12,7 @@ const Menu = () => {
         PetsTagram
       </h1>
 
-      <div className=" my-[4vh] md:hidden ">
+      <div className=" my-[4vh] hidden lg:hidden ">
         <svg
           aria-label="Instagram"
           class="_ab6-"
@@ -38,7 +38,7 @@ const Menu = () => {
         <img src={messengerIcon} className="h-[5vh]" />
         <span className="hidden md:block">Messages</span>
       </div>
-      <div className="flex gap-4 items-center">
+      <div className="gap-4 items-center hidden md:flex">
         <img src={heartIcon} className="h-[5vh]" />
         <span className="hidden md:block">Notifications</span>
       </div>

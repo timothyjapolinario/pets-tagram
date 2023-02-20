@@ -22,14 +22,12 @@ const MainPage = () => {
         setStories(response.data);
       });
   }, []);
+
   return (
-    <div>
+    <div className="flex">
       <div className="w-full lg:w-[40vw]">
         <Stories storyList={stories.slice(0, 6)} />
         <Feed />
-      </div>
-      <div>
-        <Sidebar />
       </div>
     </div>
   );
