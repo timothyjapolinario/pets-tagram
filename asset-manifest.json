@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pets-tagram/static/css/main.15f465ad.css",
-    "main.js": "/pets-tagram/static/js/main.83adb2f2.js",
+    "main.css": "/pets-tagram/static/css/main.a3fe903e.css",
+    "main.js": "/pets-tagram/static/js/main.94585ecd.js",
     "static/media/messenger-icon.svg": "/pets-tagram/static/media/messenger-icon.81fb95f5a51d7bdff16c40f9fcd24c8d.svg",
     "index.html": "/pets-tagram/index.html",
     "static/media/home-icon.svg": "/pets-tagram/static/media/home-icon.fa2d394b4fb0ca8c988d8f432188530a.svg",
-    "main.15f465ad.css.map": "/pets-tagram/static/css/main.15f465ad.css.map",
-    "main.83adb2f2.js.map": "/pets-tagram/static/js/main.83adb2f2.js.map"
+    "main.a3fe903e.css.map": "/pets-tagram/static/css/main.a3fe903e.css.map",
+    "main.94585ecd.js.map": "/pets-tagram/static/js/main.94585ecd.js.map"
   },
   "entrypoints": [
-    "static/css/main.15f465ad.css",
-    "static/js/main.83adb2f2.js"
+    "static/css/main.a3fe903e.css",
+    "static/js/main.94585ecd.js"
   ]
 }
