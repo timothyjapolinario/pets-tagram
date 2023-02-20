@@ -17,7 +17,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="flex lg:flex-row flex-col-reverse p-3 md:p-0 md:gap-20">
+    <div className="flex max-w-100vw lg:flex-row flex-col-reverse md:p-0 md:gap-20">
       <div className="border-r-2 h-[100vh]">
         <Menu />
       </div>

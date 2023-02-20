@@ -24,7 +24,7 @@ const Feed = () => {
       });
   }, []);
   return (
-    <div className="flex flex-col gap-14">
+    <div className="flex flex-col gap-14 px-2">
       {posts.map((post) => {
         return (
           <Post
